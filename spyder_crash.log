@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\Faculty\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 3181, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\Users\Faculty\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 3057, in run_spyder
+    main.setup()
+  File "C:\Users\Faculty\Anaconda3\lib\site-packages\spyder\app\mainwindow.py", line 791, in setup
+    from spyder.plugins.console import Console
+  File "C:\Users\Faculty\Anaconda3\lib\site-packages\spyder\plugins\console.py", line 34, in <module>
+    from spyder.widgets.internalshell import InternalShell
+  File "C:\Users\Faculty\Anaconda3\lib\site-packages\spyder\widgets\internalshell.py", line 29, in <module>
+    from spyder.interpreter import Interpreter
+  File "C:\Users\Faculty\Anaconda3\lib\site-packages\spyder\interpreter.py", line 19, in <module>
+    from code import InteractiveConsole
+ModuleNotFoundError: No module named 'code'
